@@ -1,0 +1,17 @@
+.green-square {
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background-color: green;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-square__text {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(35, 10, 58); 
+}
