@@ -1,7 +1,12 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .green-square {
     width: 500px;
     height: 500px;
-    margin: 200px auto;
     background-color: green;
     border: 1px solid black;
     display: flex;
@@ -14,4 +19,21 @@
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(35, 10, 58); 
+}
+
+.red-square {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(216, 17, 17);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-square__text {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(255, 255, 255); 
 }
